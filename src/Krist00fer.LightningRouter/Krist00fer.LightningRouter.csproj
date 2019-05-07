@@ -9,4 +9,21 @@
     <PackageReference Include="NLua" Version="1.4.17" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Krist00fer.CollectionUtils\Krist00fer.CollectionUtils.csproj" />
+    <ProjectReference Include="..\Krist00fer.ConsoleUtils\Krist00fer.ConsoleUtils.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="background.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="message-payload.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="routing.lua">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
