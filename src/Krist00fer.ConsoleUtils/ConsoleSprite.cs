@@ -7,7 +7,7 @@ namespace Krist00fer.ConsoleUtils
     {
         public ConsoleVector Position { get; set; } = new ConsoleVector { Left = 1, Top = 1 };
         public Queue<Waypoint> Route { get; set; } = new Queue<Waypoint>();
-        public double Speed { get; set; } = 10;
+        public double Speed { get; set; } = 12;
 
         public EventHandler<WaypointReachedEventArgs> WaypointReached;
 

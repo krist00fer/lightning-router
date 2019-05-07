@@ -24,10 +24,12 @@ function RouteMessage(brand, color)
 
 
 	-- if (color == "Pink") then
-	-- 	return "A"
+	--  	return "A"
 	-- elseif (color == "White") then
 	-- 	return "B"
-	-- else
+	-- elseif (color == "Green") then
 	-- 	return "C"
+	-- else
+	-- 	return "X"
 	-- end
 end

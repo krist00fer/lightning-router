@@ -106,7 +106,7 @@ namespace Krist00fer.LightningRouter
         {
             if (_flashRouter == 10)
             {
-                Console.BackgroundColor = _lastRouteValue == "X" ? ConsoleColor.Red : ConsoleColor.Green;
+                Console.BackgroundColor = _lastRouteValue == "X" ? ConsoleColor.Red : ConsoleColor.DarkGreen;
                 Console.SetCursorPosition(33, 11);
                 Console.Write($"   {_lastRouteValue}    ");
                 Console.SetCursorPosition(33, 15);
