@@ -78,11 +78,11 @@ namespace Krist00fer.LightningRouter
 
         private static string OnRouteMessage(string brand, string color)
         {
-            return "X";
+            //return "X";
 
-            #region XYZ
-            //var result = _routeMessageFunction.Call(brand, color);
-            //return (string)result[0];
+            #region A better solution?!?!
+            var result = _routeMessageFunction.Call(brand, color);
+            return (string)result[0];
             #endregion
         }
 
@@ -106,7 +106,7 @@ namespace Krist00fer.LightningRouter
         {
             if (_flashRouter == 10)
             {
-                Console.BackgroundColor = ConsoleColor.Red;
+                Console.BackgroundColor = _lastRouteValue == "X" ? ConsoleColor.Red : ConsoleColor.Green;
                 Console.SetCursorPosition(33, 11);
                 Console.Write($"   {_lastRouteValue}    ");
                 Console.SetCursorPosition(33, 15);

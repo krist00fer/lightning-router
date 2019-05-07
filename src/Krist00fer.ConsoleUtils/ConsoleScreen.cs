@@ -11,8 +11,8 @@ namespace Krist00fer.ConsoleUtils
     {
         List<string> _background;
 
-        public int Width { get; set; } = 100;
-        public int Hight { get; set; } = 45;
+        public int Width { get; set; } = 95;
+        public int Hight { get; set; } = 30;
 
         public List<ConsoleSprite> Sprites { get; set; } = new List<ConsoleSprite>();
 
