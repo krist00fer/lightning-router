@@ -28,6 +28,9 @@ namespace Krist00fer.LightningRouter
                 case "Green":
                     Console.ForegroundColor = ConsoleColor.Green;
                     break;
+                case "Yellow":
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    break;
                 default:
                     Console.ForegroundColor = ConsoleColor.Magenta;
                     break;

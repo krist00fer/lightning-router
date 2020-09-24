@@ -32,8 +32,8 @@ namespace Krist00fer.ConsoleUtils
         public void Init()
         {
             Console.CursorVisible = false;
-            Console.SetWindowSize(Width, Hight);
-            Console.SetBufferSize(Width, Hight);
+            // Console.SetWindowSize(Width, Hight);
+            // Console.SetBufferSize(Width, Hight);
             Console.Clear();
             DrawBackground();
         }

@@ -177,12 +177,14 @@ namespace Krist00fer.LightningRouter
 
         private static string RandomColor(Random rnd)
         {
-            switch (rnd.Next(3))
+            switch (rnd.Next(4))
             {
                 case 0:
                     return "White";
                 case 1:
                     return "Green";
+                case 2:
+                    return "Yellow";
                 default:
                     return "Pink";
             }
